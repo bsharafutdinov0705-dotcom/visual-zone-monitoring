@@ -1,0 +1,39 @@
+# Private source code and local environment
+/*.py
+/*.ipynb
+/*.yml
+/*.txt
+/.ipynb_checkpoints/
+/__pycache__/
+*.py[cod]
+
+# Models, third-party source tree, raw videos and generated outputs
+/weights/
+/OSTrack/
+/video/
+/output/
+
+# Source presentation and Office temporary files
+/*.pptx
+/~$*
+
+# Unused presentation assets
+/assets/presentation/brand.jpg
+/assets/presentation/cover.jpg
+/assets/presentation/detector-example-1.png
+/assets/presentation/detector-example-4.png
+
+# Unused reconstruction artifacts
+/assets/depth-pro/apron-scene.usd
+/assets/depth-pro/ground-texture.jpg
+/assets/depth-pro/homography-source.png
+/assets/depth-pro/homography-warped.jpg
+/assets/depth-pro/pointcloud-reprojection.png
+/assets/depth-pro/scale-reference.jpg
+/assets/depth-pro/scene-comparison.png
+/assets/depth-pro/scene-reprojection.png
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
